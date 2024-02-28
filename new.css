@@ -15,8 +15,8 @@
 }
 body {
   background-color: white;
-  background-image: repeating-linear-gradient(0deg, rgba(0,0,90,0.001), rgba(0,0,90,0.1) 1px, transparent 1px, transparent 50px),
-                    repeating-linear-gradient(90deg, rgba(0,0,90,0.001), rgba(0,0,90,0.1) 1px, transparent 1px, transparent 50px);
+  background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.02), rgba(0,0,0,0.02) 1px, transparent 1px, transparent 10px),
+                    repeating-linear-gradient(90deg, rgba(0,0,0,0.02), rgba(0,0,0,0.02) 1px, transparent 1px, transparent 10px);
   background-size: 50px 50px;
   background-attachment: fixed;
 }
