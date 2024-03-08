@@ -39,17 +39,16 @@ a.nav-link {
   color: var(--color-black);
   font-family: var(--font-family-semibold);
   font-size: 18px;
+  padding: 2px 15px !important;
   transition: 0.5s !important;
 }
 a.nav-link:hover {
-  color: var(--color-white);
-  background-color: var(--color-black);
   padding: 2px 15px !important;
   border-radius: 30px;
   transition: 0.5s !important;
-  margin: 5px 5px;
+  transform: scale(1.2);
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   a.nav-link:hover {
     color: var(--color-grey);
     background-color: var(--color-white);
@@ -59,7 +58,7 @@ a.nav-link:hover {
 }
 .offcanvas-title {
   color: var(--color-black);
-  font-family: var(--font-family-medium);
+  font-family: var(--font-family-semibold);
   font-size: 20px;
 }
 
