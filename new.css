@@ -160,7 +160,8 @@ a.nav-link:hover {
   .logo.language,
   .framework,
   .software,
-  .server {
+  .server,
+  .manager {
     transition: 0.5s;
     transform: scale(1.2);
   }
@@ -253,7 +254,7 @@ ol.list-group.projects li a.link.project {
   padding: 10px;
   transition: 0.5s;
 }
-.logo.server{
+.logo.server, .manager{
   width: 70px !important;
   border-radius: 15px;
   height: auto;
