@@ -1543,6 +1543,88 @@ const Data = [
   },
   {
     id: 19,
+    name: "Sourcetree",
+    type: "Git UI",
+    logo: {
+      image: "/logo/web_development/sourcefree.webp",
+      alt: "Sourcefree Logo",
+    },
+    course: [
+      {
+        course_id: 1,
+        title: "Uncommitted changes checking",
+      },
+      {
+        course_id: 2,
+        title: "Staging files",
+      },
+      {
+        course_id: 3,
+        title: "Commit",
+      },
+      {
+        course_id: 4,
+        title: "Editing Commit",
+      },
+      {
+        course_id: 5,
+        title: "Tag",
+      },
+      {
+        course_id: 6,
+        title: "Branching",
+      },
+      {
+        course_id: 7,
+        title: "Gitignore",
+      },
+      {
+        course_id: 8,
+        title: "Remove",
+      },
+    ],
+    website: [
+      {
+        website_id: 1,
+        name: "sourcetreeapp.com",
+      },
+    ],
+  },
+  {
+    id: 20,
+    name: "Bitbucket",
+    type: "Private Web-Based Version Control and Collaboration Platform",
+    logo: {
+      image: "/logo/web_development/bitbucket.webp",
+      alt: "Bitbucket Logo",
+    },
+    course: [
+      {
+        course_id: 1,
+        title: ".ssh",
+      },
+      {
+        course_id: 2,
+        title: "Workspace",
+      },
+      {
+        course_id: 3,
+        title: "SSH Keys",
+      },
+      {
+        course_id: 4,
+        title: "Repository",
+      },
+    ],
+    website: [
+      {
+        website_id: 1,
+        name: "bitbucket.org",
+      },
+    ],
+  },
+  {
+    id: 21,
     name: "Composer",
     type: "Application",
     logo: {
@@ -1557,7 +1639,7 @@ const Data = [
     ],
   },
   {
-    id: 20,
+    id: 22,
     name: "NPM",
     type: "Package",
     logo: {
@@ -1572,7 +1654,7 @@ const Data = [
     ],
   },
   {
-    id: 21,
+    id: 23,
     name: "NPX",
     type: "Package",
     logo: {
@@ -1587,7 +1669,7 @@ const Data = [
     ],
   },
   {
-    id: 22,
+    id: 24,
     name: "Vite",
     type: "Application",
     logo: {
